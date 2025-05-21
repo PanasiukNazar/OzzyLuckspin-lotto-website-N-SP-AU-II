@@ -136,6 +136,15 @@ ol {
     color: #fff;
 }
 
+            @keyframes ticker-scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
 /* buttons */
 .primary-btn {
     display: inline-block;
